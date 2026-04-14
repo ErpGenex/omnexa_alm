@@ -1,5 +1,5 @@
 app_name = "omnexa_alm"
-app_title = "Omnexa ALM"
+app_title = "ErpGenEx — ALM"
 app_publisher = "Omnexa"
 app_description = "Asset and liability management vertical"
 app_email = "dev@omnexa.com"

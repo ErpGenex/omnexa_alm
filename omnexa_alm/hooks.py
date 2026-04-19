@@ -247,3 +247,18 @@ before_request = ["omnexa_alm.license_gate.before_request"]
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+after_migrate = [
+	"omnexa_alm.governance_setup.after_migrate",
+	"omnexa_alm.workspace_enhancer.after_migrate",
+]
+
+permission_query_conditions = {
+	"ALM Policy Version": "omnexa_alm.governance_permissions.policy_query_conditions",
+	"ALM Audit Snapshot": "omnexa_alm.governance_permissions.snapshot_query_conditions",
+}
+
+has_permission = {
+	"ALM Policy Version": "omnexa_alm.governance_permissions.policy_has_permission",
+	"ALM Audit Snapshot": "omnexa_alm.governance_permissions.snapshot_has_permission",
+}

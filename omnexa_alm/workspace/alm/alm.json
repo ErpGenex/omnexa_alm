@@ -1,0 +1,265 @@
+{
+ "charts": [
+  {
+   "chart_name": "ALM \u00b7 ALM Daily Run Trend",
+   "label": "ALM Daily Run Trend"
+  },
+  {
+   "chart_name": "ALM \u00b7 ALM Position Snapshot Trend",
+   "label": "ALM Position Snapshot Trend"
+  },
+  {
+   "chart_name": "ALM \u00b7 ALM Daily Run Vol",
+   "label": "ALM Daily Run Vol"
+  },
+  {
+   "chart_name": "ALM \u00b7 ALM book bars Bar",
+   "label": "ALM book bars Bar"
+  },
+  {
+   "chart_name": "ALM \u00b7 Scenarios Pie",
+   "label": "Scenarios Pie"
+  },
+  {
+   "chart_name": "ALM \u00b7 Run outcomes Perc",
+   "label": "Run outcomes Perc"
+  },
+  {
+   "chart_name": "ALM \u00b7 ALM Stress Scenario Mix",
+   "label": "ALM Stress Scenario Mix"
+  }
+ ],
+ "content": "[{\"id\":\"alm-h\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Asset & Liability Management</b></span>\",\"col\":12}},{\"id\":\"alm-nc0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Daily ALM Runs\",\"col\":4}},{\"id\":\"alm-nc1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Position Snapshots\",\"col\":4}},{\"id\":\"alm-nc2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Stress Scenarios\",\"col\":4}},{\"id\":\"alm-nc3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"FTP Curves\",\"col\":4}},{\"id\":\"alm-nc4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"IRRBB Assessments Pending\",\"col\":4}},{\"id\":\"alm-nc5\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Playbooks\",\"col\":4}},{\"id\":\"alm-ch0\",\"type\":\"chart\",\"data\":{\"chart_name\":\"ALM Daily Run Trend\",\"col\":4}},{\"id\":\"alm-ch1\",\"type\":\"chart\",\"data\":{\"chart_name\":\"ALM Position Snapshot Trend\",\"col\":4}},{\"id\":\"alm-ch2\",\"type\":\"chart\",\"data\":{\"chart_name\":\"ALM Daily Run Vol\",\"col\":4}},{\"id\":\"alm-ch3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"ALM book bars Bar\",\"col\":4}},{\"id\":\"alm-ch4\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Scenarios Pie\",\"col\":4}},{\"id\":\"alm-ch5\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Run outcomes Perc\",\"col\":4}},{\"id\":\"alm-ch6\",\"type\":\"chart\",\"data\":{\"chart_name\":\"ALM Stress Scenario Mix\",\"col\":4}},{\"id\":\"alm-ops\",\"type\":\"header\",\"data\":{\"text\":\"<b>Quick Actions</b>\",\"col\":12}},{\"id\":\"alm-sc0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Daily Runs\",\"col\":3}},{\"id\":\"alm-sc1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Position Snapshots\",\"col\":3}},{\"id\":\"alm-sc2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Stress Scenarios\",\"col\":3}},{\"id\":\"alm-sc3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"FTP Curves\",\"col\":3}},{\"id\":\"alm-sc4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IRRBB Assessments\",\"col\":3}},{\"id\":\"alm-sc5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Contingency Playbooks\",\"col\":3}},{\"id\":\"alm-sc6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gap Report\",\"col\":3}},{\"id\":\"alm-sc7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Governance Overview\",\"col\":3}}]",
+ "creation": "2026-04-17 21:38:17.382177",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "chart",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "ALM",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Liquidity & Positioning",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "icon": "database",
+   "is_query_report": 0,
+   "label": "ALM Position Snapshots",
+   "link_count": 0,
+   "link_to": "ALM Position Snapshot",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "calendar",
+   "is_query_report": 0,
+   "label": "ALM Daily Runs",
+   "link_count": 0,
+   "link_to": "ALM Daily Run",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "activity",
+   "is_query_report": 0,
+   "label": "ALM Stress Scenarios",
+   "link_count": 0,
+   "link_to": "ALM Stress Scenario",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Regulatory Reports",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "icon": "trending-up",
+   "is_query_report": 1,
+   "label": "ALM Gap Report",
+   "link_count": 0,
+   "link_to": "ALM Gap Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "shield",
+   "is_query_report": 1,
+   "label": "ALM Liquidity Compliance Monitor",
+   "link_count": 0,
+   "link_to": "ALM Liquidity Compliance Monitor",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "alert-triangle",
+   "is_query_report": 1,
+   "label": "ALM Stress Outlier Report",
+   "link_count": 0,
+   "link_to": "ALM Stress Outlier Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ALM Analytics",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "icon": "droplet",
+   "is_query_report": 1,
+   "label": "Liquidity Compliance",
+   "link_count": 0,
+   "link_to": "ALM Liquidity Compliance Monitor",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "bar-chart-2",
+   "is_query_report": 1,
+   "label": "NII / EVE Sensitivity",
+   "link_count": 0,
+   "link_to": "ALM NII EVE Sensitivity",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "icon": "alert-triangle",
+   "is_query_report": 1,
+   "label": "Stress Outlier",
+   "link_count": 0,
+   "link_to": "ALM Stress Outlier Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-17 23:45:45.014554",
+ "modified_by": "Administrator",
+ "module": "Omnexa ALM",
+ "name": "ALM",
+ "number_cards": [
+  {
+   "label": "Daily ALM Runs",
+   "number_card_name": "Daily ALM Runs"
+  },
+  {
+   "label": "Position Snapshots",
+   "number_card_name": "Position Snapshots"
+  },
+  {
+   "label": "Stress Scenarios",
+   "number_card_name": "Stress Scenarios"
+  },
+  {
+   "label": "FTP Curves",
+   "number_card_name": "FTP Curves"
+  },
+  {
+   "label": "IRRBB Assessments Pending",
+   "number_card_name": "IRRBB Assessments Pending"
+  },
+  {
+   "label": "Active Playbooks",
+   "number_card_name": "Active Playbooks"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "Finance Group",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 0.0,
+ "shortcuts": [
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Daily Runs",
+   "link_to": "ALM Daily Run",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Position Snapshots",
+   "link_to": "ALM Position Snapshot",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "List",
+   "label": "Stress Scenarios",
+   "link_to": "ALM Stress Scenario",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "FTP Curves",
+   "link_to": "ALM FTP Curve",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "IRRBB Assessments",
+   "link_to": "ALM IRRBB Outlier Assessment",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Contingency Playbooks",
+   "link_to": "ALM Contingency Playbook",
+   "type": "DocType"
+  },
+  {
+   "color": "Teal",
+   "doc_view": "",
+   "label": "Gap Report",
+   "link_to": "ALM Gap Report",
+   "report_ref_doctype": "ALM Position Snapshot",
+   "type": "Report"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "",
+   "label": "Governance Overview",
+   "link_to": "Governance Overview",
+   "report_ref_doctype": "Finance Policy Version",
+   "type": "Report"
+  }
+ ],
+ "title": "ALM"
+}

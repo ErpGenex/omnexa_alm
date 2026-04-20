@@ -7,24 +7,40 @@
  "engine": "InnoDB",
  "field_order": [
   "identity_section",
-  "run_date",
   "company",
+  "branch",
+  "run_date",
+  "column_break_alm_1",
   "run_status",
   "input_hash",
+  "run_reference",
+  "column_break_alm_2",
   "lcr",
   "nsfr",
+  "outlier_ratio",
   "nii_sensitivity",
   "eve_sensitivity",
-  "outlier_ratio",
   "result_json",
-  "control_section",
-  "run_reference"
+  "control_section"
  ],
  "fields": [
   {
    "fieldname": "identity_section",
    "fieldtype": "Section Break",
-   "label": "Daily Run Identity"
+   "label": "Transaction Core"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Branch"
   },
   {
    "fieldname": "run_date",
@@ -33,11 +49,12 @@
    "reqd": 1
   },
   {
-   "fieldname": "company",
-   "fieldtype": "Link",
-   "label": "Company",
-   "options": "Company",
-   "reqd": 1
+   "fieldname": "column_break_alm_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_alm_2",
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "run_status",
@@ -83,14 +100,14 @@
    "reqd": 1
   },
   {
-   "fieldname": "control_section",
-   "fieldtype": "Section Break",
-   "label": "Control"
-  },
-  {
    "fieldname": "run_reference",
    "fieldtype": "Data",
    "label": "Run Reference"
+  },
+  {
+   "fieldname": "control_section",
+   "fieldtype": "Section Break",
+   "label": "Control"
   }
  ],
  "index_web_pages_for_search": 1,

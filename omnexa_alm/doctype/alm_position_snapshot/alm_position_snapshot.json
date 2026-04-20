@@ -6,6 +6,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "identity_section",
   "valuation_date",
   "company",
   "branch",
@@ -16,20 +17,94 @@
   "rate_type",
   "repricing_days",
   "amount",
-  "source_reference"
+  "source_reference",
+  "control_section",
+  "position_owner"
  ],
  "fields": [
-  {"fieldname":"valuation_date","fieldtype":"Date","label":"Valuation Date","reqd":1},
-  {"fieldname":"company","fieldtype":"Link","label":"Company","options":"Company","reqd":1},
-  {"fieldname":"branch","fieldtype":"Link","label":"Branch","options":"Branch"},
-  {"fieldname":"country_code","fieldtype":"Data","label":"Country Code"},
-  {"fieldname":"currency","fieldtype":"Link","label":"Currency","options":"Currency","reqd":1},
-  {"fieldname":"book","fieldtype":"Select","label":"Book","options":"ASSET\nLIABILITY","reqd":1},
-  {"fieldname":"product_code","fieldtype":"Data","label":"Product Code"},
-  {"fieldname":"rate_type","fieldtype":"Select","label":"Rate Type","options":"FIXED\nFLOATING","default":"FIXED"},
-  {"fieldname":"repricing_days","fieldtype":"Int","label":"Repricing Days","reqd":1},
-  {"fieldname":"amount","fieldtype":"Currency","label":"Amount","reqd":1},
-  {"fieldname":"source_reference","fieldtype":"Data","label":"Source Reference"}
+  {
+   "fieldname": "identity_section",
+   "fieldtype": "Section Break",
+   "label": "Position Snapshot Identity"
+  },
+  {
+   "fieldname": "valuation_date",
+   "fieldtype": "Date",
+   "label": "Valuation Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Branch"
+  },
+  {
+   "fieldname": "country_code",
+   "fieldtype": "Data",
+   "label": "Country Code"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency",
+   "reqd": 1
+  },
+  {
+   "fieldname": "book",
+   "fieldtype": "Select",
+   "label": "Book",
+   "options": "ASSET\nLIABILITY",
+   "reqd": 1
+  },
+  {
+   "fieldname": "product_code",
+   "fieldtype": "Data",
+   "label": "Product Code"
+  },
+  {
+   "fieldname": "rate_type",
+   "fieldtype": "Select",
+   "label": "Rate Type",
+   "options": "FIXED\nFLOATING",
+   "default": "FIXED"
+  },
+  {
+   "fieldname": "repricing_days",
+   "fieldtype": "Int",
+   "label": "Repricing Days",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "source_reference",
+   "fieldtype": "Data",
+   "label": "Source Reference"
+  },
+  {
+   "fieldname": "control_section",
+   "fieldtype": "Section Break",
+   "label": "Control"
+  },
+  {
+   "fieldname": "position_owner",
+   "fieldtype": "Link",
+   "label": "Position Owner",
+   "options": "User"
+  }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
@@ -39,10 +114,20 @@
  "name": "ALM Position Snapshot",
  "owner": "Administrator",
  "permissions": [
-  {"create":1,"delete":1,"email":1,"export":1,"print":1,"read":1,"report":1,"role":"System Manager","share":1,"write":1}
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
 }
-

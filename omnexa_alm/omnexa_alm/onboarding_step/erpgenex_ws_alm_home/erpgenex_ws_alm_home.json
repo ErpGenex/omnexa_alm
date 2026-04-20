@@ -1,0 +1,21 @@
+{
+ "action": "Go to Page",
+ "action_label": "Open workspace",
+ "creation": "2026-04-20 00:31:39.221579",
+ "description": "Return here for shortcuts, charts, and lists for **ALM**.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2026-04-20 02:24:43.443088",
+ "modified_by": "Administrator",
+ "name": "ERPGENEX-WS-alm-home",
+ "owner": "Administrator",
+ "path": "Workspaces/ALM",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Explore this workspace",
+ "validate_action": 1
+}

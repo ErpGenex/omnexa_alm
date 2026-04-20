@@ -1,0 +1,21 @@
+{
+ "action": "Create Entry",
+ "action_label": "Create",
+ "creation": "2026-04-20 00:31:39.210469",
+ "description": "Create or review your first **ALM Daily Run** record from this workspace.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2026-04-20 02:24:43.397088",
+ "modified_by": "Administrator",
+ "name": "ERPGENEX-WS-alm-01-alm_daily_run",
+ "owner": "Administrator",
+ "reference_document": "ALM Daily Run",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Get started with ALM Daily Run",
+ "validate_action": 1
+}

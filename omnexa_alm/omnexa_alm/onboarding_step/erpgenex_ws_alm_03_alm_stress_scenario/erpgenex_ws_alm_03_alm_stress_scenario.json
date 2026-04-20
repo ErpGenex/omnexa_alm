@@ -1,0 +1,21 @@
+{
+ "action": "Create Entry",
+ "action_label": "Create",
+ "creation": "2026-04-20 00:31:39.216970",
+ "description": "Create or review your first **ALM Stress Scenario** record from this workspace.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2026-04-20 02:24:43.408387",
+ "modified_by": "Administrator",
+ "name": "ERPGENEX-WS-alm-03-alm_stress_scenario",
+ "owner": "Administrator",
+ "reference_document": "ALM Stress Scenario",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Get started with ALM Stress Scenario",
+ "validate_action": 1
+}

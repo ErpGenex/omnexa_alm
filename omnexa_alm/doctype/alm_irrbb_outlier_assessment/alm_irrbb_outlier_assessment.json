@@ -1,112 +1,100 @@
 {
- "actions": [],
- "allow_rename": 1,
- "autoname": "hash",
- "doctype": "DocType",
- "engine": "InnoDB",
- "field_order": [
-  "identity_section",
-  "valuation_date",
-  "tier1_capital",
-  "workflow_status",
-  "points_json",
-  "suite_results_json",
-  "submitted_by",
-  "submitted_on",
-  "approved_by",
-  "approved_on",
-  "control_section",
-  "assessment_owner"
- ],
- "fields": [
-  {
-   "fieldname": "identity_section",
-   "fieldtype": "Section Break",
-   "label": "Assessment Identity"
-  },
-  {
-   "fieldname": "valuation_date",
-   "fieldtype": "Date",
-   "label": "Valuation Date",
-   "reqd": 1,
-   "in_list_view": 1
-  },
-  {
-   "fieldname": "tier1_capital",
-   "fieldtype": "Data",
-   "label": "Tier 1 Capital",
-   "reqd": 1
-  },
-  {
-   "fieldname": "workflow_status",
-   "fieldtype": "Select",
-   "label": "Workflow Status",
-   "options": "PENDING\nAPPROVED\nREJECTED",
-   "default": "PENDING",
-   "in_list_view": 1
-  },
-  {
-   "fieldname": "points_json",
-   "fieldtype": "Long Text",
-   "label": "ALM Points JSON"
-  },
-  {
-   "fieldname": "suite_results_json",
-   "fieldtype": "Long Text",
-   "label": "Suite Results JSON"
-  },
-  {
-   "fieldname": "submitted_by",
-   "fieldtype": "Link",
-   "label": "Submitted By",
-   "options": "User"
-  },
-  {
-   "fieldname": "submitted_on",
-   "fieldtype": "Datetime",
-   "label": "Submitted On"
-  },
-  {
-   "fieldname": "approved_by",
-   "fieldtype": "Link",
-   "label": "Approved By",
-   "options": "User"
-  },
-  {
-   "fieldname": "approved_on",
-   "fieldtype": "Datetime",
-   "label": "Approved On"
-  },
-  {
-   "fieldname": "control_section",
-   "fieldtype": "Section Break",
-   "label": "Governance"
-  },
-  {
-   "fieldname": "assessment_owner",
-   "fieldtype": "Link",
-   "label": "Assessment Owner",
-   "options": "User"
-  }
- ],
- "index_web_pages_for_search": 1,
- "module": "Omnexa ALM",
- "name": "ALM IRRBB Outlier Assessment",
- "permissions": [
-  {
-   "role": "System Manager",
-   "read": 1,
-   "write": 1,
-   "create": 1,
-   "delete": 1,
-   "print": 1,
-   "email": 1,
-   "export": 1,
-   "report": 1,
-   "share": 1
-  }
- ],
- "sort_field": "modified",
- "sort_order": "DESC",
- "track_changes": 1
+	"actions": [],
+	"allow_rename": 1,
+	"autoname": "hash",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"valuation_date",
+		"tier1_capital",
+		"workflow_status",
+		"points_json",
+		"suite_results_json",
+		"submitted_by",
+		"submitted_on",
+		"approved_by",
+		"approved_on",
+		"assessment_owner"
+	],
+	"fields": [
+		{
+			"fieldname": "valuation_date",
+			"fieldtype": "Date",
+			"label": "Valuation Date",
+			"reqd": 1,
+			"in_list_view": 1
+		},
+		{
+			"fieldname": "tier1_capital",
+			"fieldtype": "Data",
+			"label": "Tier 1 Capital",
+			"reqd": 1
+		},
+		{
+			"fieldname": "workflow_status",
+			"fieldtype": "Select",
+			"label": "Workflow Status",
+			"options": "PENDING\nAPPROVED\nREJECTED",
+			"default": "PENDING",
+			"in_list_view": 1
+		},
+		{
+			"fieldname": "points_json",
+			"fieldtype": "Long Text",
+			"label": "ALM Points JSON"
+		},
+		{
+			"fieldname": "suite_results_json",
+			"fieldtype": "Long Text",
+			"label": "Suite Results JSON"
+		},
+		{
+			"fieldname": "submitted_by",
+			"fieldtype": "Link",
+			"label": "Submitted By",
+			"options": "User"
+		},
+		{
+			"fieldname": "submitted_on",
+			"fieldtype": "Datetime",
+			"label": "Submitted On"
+		},
+		{
+			"fieldname": "approved_by",
+			"fieldtype": "Link",
+			"label": "Approved By",
+			"options": "User"
+		},
+		{
+			"fieldname": "approved_on",
+			"fieldtype": "Datetime",
+			"label": "Approved On"
+		},
+		{
+			"fieldname": "assessment_owner",
+			"fieldtype": "Link",
+			"label": "Assessment Owner",
+			"options": "User"
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"module": "Omnexa ALM",
+	"name": "ALM IRRBB Outlier Assessment",
+	"permissions": [
+		{
+			"role": "System Manager",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"delete": 1,
+			"print": 1,
+			"email": 1,
+			"export": 1,
+			"report": 1,
+			"share": 1
+		}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"track_changes": 1
 }

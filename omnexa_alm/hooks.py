@@ -9,6 +9,8 @@ app_license = "mit"
 # ------------------
 
 required_apps = ["omnexa_core"]
+before_install = "omnexa_alm.install.enforce_supported_frappe_version"
+before_migrate = "omnexa_alm.install.enforce_supported_frappe_version"
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [

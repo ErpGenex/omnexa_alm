@@ -1,7 +1,7 @@
 [project]
 name = "omnexa_alm"
 authors = [
-    { name = "Omnexa", email = "dev@omnexa.com"}
+    { name = "ErpGenEx", email = "dev@erpgenex.com"}
 ]
 description = "Asset and liability management vertical"
 requires-python = ">=3.10"

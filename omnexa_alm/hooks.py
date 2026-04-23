@@ -1,8 +1,8 @@
 app_name = "omnexa_alm"
 app_title = "ErpGenEx — ALM"
-app_publisher = "Omnexa"
+app_publisher = "ErpGenEx"
 app_description = "Asset and liability management vertical"
-app_email = "dev@omnexa.com"
+app_email = "dev@erpgenex.com"
 app_license = "mit"
 
 # Apps

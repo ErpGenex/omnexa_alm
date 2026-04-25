@@ -1,0 +1,125 @@
+{
+	"actions": [],
+	"allow_rename": 1,
+	"autoname": "hash",
+	"creation": "2026-04-17 20:00:00.000000",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"company",
+		"branch",
+		"run_date",
+		"column_break_alm_1",
+		"run_status",
+		"input_hash",
+		"run_reference",
+		"column_break_alm_2",
+		"lcr",
+		"nsfr",
+		"outlier_ratio",
+		"nii_sensitivity",
+		"eve_sensitivity",
+		"result_json"
+	],
+	"fields": [
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"fieldname": "branch",
+			"fieldtype": "Link",
+			"label": "Branch",
+			"options": "Branch"
+		},
+		{
+			"fieldname": "run_date",
+			"fieldtype": "Date",
+			"label": "Run Date",
+			"reqd": 1
+		},
+		{
+			"fieldname": "column_break_alm_1",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "column_break_alm_2",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "run_status",
+			"fieldtype": "Select",
+			"label": "Run Status",
+			"options": "SUCCESS\nFAILED",
+			"default": "SUCCESS"
+		},
+		{
+			"fieldname": "input_hash",
+			"fieldtype": "Data",
+			"label": "Input Hash"
+		},
+		{
+			"fieldname": "lcr",
+			"fieldtype": "Float",
+			"label": "LCR"
+		},
+		{
+			"fieldname": "nsfr",
+			"fieldtype": "Float",
+			"label": "NSFR"
+		},
+		{
+			"fieldname": "nii_sensitivity",
+			"fieldtype": "Currency",
+			"label": "NII Sensitivity"
+		},
+		{
+			"fieldname": "eve_sensitivity",
+			"fieldtype": "Currency",
+			"label": "EVE Sensitivity"
+		},
+		{
+			"fieldname": "outlier_ratio",
+			"fieldtype": "Float",
+			"label": "Outlier Ratio"
+		},
+		{
+			"fieldname": "result_json",
+			"fieldtype": "Long Text",
+			"label": "Result JSON",
+			"reqd": 1
+		},
+		{
+			"fieldname": "run_reference",
+			"fieldtype": "Data",
+			"label": "Run Reference"
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"links": [],
+	"modified": "2026-04-17 20:00:00.000000",
+	"modified_by": "Administrator",
+	"module": "Omnexa ALM",
+	"name": "ALM Daily Run",
+	"owner": "Administrator",
+	"permissions": [
+		{
+			"create": 1,
+			"delete": 1,
+			"email": 1,
+			"export": 1,
+			"print": 1,
+			"read": 1,
+			"report": 1,
+			"role": "System Manager",
+			"share": 1,
+			"write": 1
+		}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"states": []
+}

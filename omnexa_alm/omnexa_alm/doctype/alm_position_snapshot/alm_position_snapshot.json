@@ -1,0 +1,131 @@
+{
+	"actions": [],
+	"allow_rename": 1,
+	"autoname": "hash",
+	"creation": "2026-04-17 20:00:00.000000",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"valuation_date",
+		"company",
+		"branch",
+		"country_code",
+		"column_break_omnexa_1",
+		"currency",
+		"book",
+		"product_code",
+		"rate_type",
+		"column_break_omnexa_2",
+		"repricing_days",
+		"amount",
+		"source_reference",
+		"position_owner"
+	],
+	"fields": [
+		{
+			"fieldname": "valuation_date",
+			"fieldtype": "Date",
+			"label": "Valuation Date",
+			"reqd": 1
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"fieldname": "branch",
+			"fieldtype": "Link",
+			"label": "Branch",
+			"options": "Branch"
+		},
+		{
+			"fieldname": "country_code",
+			"fieldtype": "Data",
+			"label": "Country Code"
+		},
+		{
+			"fieldname": "currency",
+			"fieldtype": "Link",
+			"label": "Currency",
+			"options": "Currency",
+			"reqd": 1
+		},
+		{
+			"fieldname": "book",
+			"fieldtype": "Select",
+			"label": "Book",
+			"options": "ASSET\nLIABILITY",
+			"reqd": 1
+		},
+		{
+			"fieldname": "product_code",
+			"fieldtype": "Data",
+			"label": "Product Code"
+		},
+		{
+			"fieldname": "rate_type",
+			"fieldtype": "Select",
+			"label": "Rate Type",
+			"options": "FIXED\nFLOATING",
+			"default": "FIXED"
+		},
+		{
+			"fieldname": "repricing_days",
+			"fieldtype": "Int",
+			"label": "Repricing Days",
+			"reqd": 1
+		},
+		{
+			"fieldname": "amount",
+			"fieldtype": "Currency",
+			"label": "Amount",
+			"reqd": 1
+		},
+		{
+			"fieldname": "source_reference",
+			"fieldtype": "Data",
+			"label": "Source Reference"
+		},
+		{
+			"fieldname": "position_owner",
+			"fieldtype": "Link",
+			"label": "Position Owner",
+			"options": "User"
+		},
+		{
+			"fieldname": "column_break_omnexa_1",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "column_break_omnexa_2",
+			"fieldtype": "Column Break"
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"links": [],
+	"modified": "2026-04-17 20:00:00.000000",
+	"modified_by": "Administrator",
+	"module": "Omnexa ALM",
+	"name": "ALM Position Snapshot",
+	"owner": "Administrator",
+	"permissions": [
+		{
+			"create": 1,
+			"delete": 1,
+			"email": 1,
+			"export": 1,
+			"print": 1,
+			"read": 1,
+			"report": 1,
+			"role": "System Manager",
+			"share": 1,
+			"write": 1
+		}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"states": []
+}

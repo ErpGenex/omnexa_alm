@@ -1,0 +1,78 @@
+{
+	"actions": [],
+	"allow_rename": 1,
+	"autoname": "hash",
+	"creation": "2026-04-17 20:00:00.000000",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"scenario_name",
+		"status",
+		"rate_shock_bps",
+		"liquidity_outflow_multiplier",
+		"description",
+		"scenario_owner"
+	],
+	"fields": [
+		{
+			"fieldname": "scenario_name",
+			"fieldtype": "Data",
+			"label": "Scenario Name",
+			"reqd": 1
+		},
+		{
+			"fieldname": "status",
+			"fieldtype": "Select",
+			"label": "Status",
+			"options": "DRAFT\nACTIVE\nRETIRED",
+			"default": "DRAFT"
+		},
+		{
+			"fieldname": "rate_shock_bps",
+			"fieldtype": "Int",
+			"label": "Rate Shock (bps)",
+			"reqd": 1
+		},
+		{
+			"fieldname": "liquidity_outflow_multiplier",
+			"fieldtype": "Float",
+			"label": "Liquidity Outflow Multiplier",
+			"default": "1"
+		},
+		{
+			"fieldname": "description",
+			"fieldtype": "Long Text",
+			"label": "Description"
+		},
+		{
+			"fieldname": "scenario_owner",
+			"fieldtype": "Link",
+			"label": "Scenario Owner",
+			"options": "User"
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"links": [],
+	"modified": "2026-04-17 20:00:00.000000",
+	"modified_by": "Administrator",
+	"module": "Omnexa ALM",
+	"name": "ALM Stress Scenario",
+	"owner": "Administrator",
+	"permissions": [
+		{
+			"create": 1,
+			"delete": 1,
+			"email": 1,
+			"export": 1,
+			"print": 1,
+			"read": 1,
+			"report": 1,
+			"role": "System Manager",
+			"share": 1,
+			"write": 1
+		}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"states": []
+}
